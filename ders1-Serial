@@ -1,1 +1,15 @@
+float a=45;
 
+
+void setup() {
+  Serial.begin(9600);
+  //Serial.print("Arduino ile Proteus Dersleri");
+
+}
+
+void loop() {
+ Serial.print("Arduino ile Proteus Dersleri");
+ Serial.println(a);
+ delay(500);
+
+}
